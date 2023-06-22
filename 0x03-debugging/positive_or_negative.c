@@ -1,8 +1,9 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - Determines if a number is positive, negative or zero.
- */
+* main - Determines if a number is positive, negative or zero.
+* Return i number 
+*/
 
 void positive_or_negative(int i)
 {
@@ -11,5 +12,5 @@ void positive_or_negative(int i)
 	else if (i < 0)
 		printf("%d is negative\n", i);
 	else
-		printf("%d is zero\n", i)
+		printf("%d is zero\n", i);
 }
