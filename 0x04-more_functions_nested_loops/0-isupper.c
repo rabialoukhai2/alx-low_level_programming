@@ -7,12 +7,12 @@
  */
 int _isupper(int c)
 {
-README.md if (c >= 65 && c <= 90)
-README.md {
-README.md README.md return (1);
-README.md }
-README.md else
-README.md {
-README.md README.md return (0);
-README.md }
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
