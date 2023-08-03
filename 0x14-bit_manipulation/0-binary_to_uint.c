@@ -1,4 +1,3 @@
-
 #include "main.h"
 
 /**
@@ -9,18 +8,18 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-README.md int i;
-README.md unsigned int dec_val = 0;
+	int i;
+	unsigned int dec_val = 0;
 
-README.md if (!b)
-README.md README.md return (0);
+	if (!b)
+		return (0);
 
-README.md for (i = 0; b[i]; i++)
-README.md {
-README.md README.md if (b[i] < '0' || b[i] > '1')
-README.md README.md README.md return (0);
-README.md README.md dec_val = 2 * dec_val + (b[i] - '0');
-README.md }
+	for (i = 0; b[i]; i++)
+	{
+		if (b[i] < '0' || b[i] > '1')
+			return (0);
+		dec_val = 2 * dec_val + (b[i] - '0');
+	}
 
-README.md return (dec_val);
+	return (dec_val);
 }
