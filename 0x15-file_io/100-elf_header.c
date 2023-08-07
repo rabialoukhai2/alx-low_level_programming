@@ -312,6 +312,3 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	close_elf(o);
 	return (0);
 i}
-
-
-//comment for nothing
